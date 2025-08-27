@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" href="../img/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+   
+      <header class="cabecario">
+          <h1>How it was made:</h1>
+      </header>
+    <aside>
+      <div class="InformacoesLateral">
+          <div class="InformacoesDentroDoBalao">
+              <p>Api: PokeAPI - async function;</p>
+              <p>Populars images and gifs on the internet;</p>
+              <p>Just HTML, CSS & Java Script;</p>
+              
+              <Button id="botaoNextPokedex"> Next Pokedex --> </Button>
+          </div>
+      </div>
+    </aside>
+   
+   <div class="DivContainerPai">
+
+    
+       <div class="DivContainerFilho">
+
+           <main class="MainContainer">
+
+            <form id="formularioPokemon">
+              <input id="pesquisarPokemon" class="SearchPokemon" type="search"  placeholder="Name or number" required>
+            </form>
+
+            
+            <img id="PokeGif" class="ImgPokemon" src= alt="">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="flechaEsquerda"  class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+              </svg>
+                   <img class="ImgPokedex" src="../img/pokedex.png" alt="PokedexImg">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="flechaDireita" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                  <input class="Estilizacao" type="text" disabled>
+                  <span id="PokemonNomeSpan"  class="PokemonNomeSpan">bulbasaur</span>
+                  <span id="NumeroSpanPokedex"  class="NumeroDoPokemon">#1</span>
+                  <button id="botaoPesquisar" class="bi bi-search">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"    viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg> </button>
+                   
+           </main>
+   
+       </div>
+      
+
+   </div>
+
+  
+</body>
+</html>
