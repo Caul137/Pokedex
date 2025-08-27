@@ -152,11 +152,11 @@ flechaJasonE()
 //------------  ---  -------------//
 const botaoNextPokedex = document.getElementById("botaoNextPokedex")
 
-botaoNextPokedex.addEventListener("click", () => {
+// botaoNextPokedex.addEventListener("click", () => {
 
-    window.location.href = "/Pokedex2/html/index.html"
+//     window.location.href = "/Pokedex2/html/index.html"
 
-})
+// })
 
 
 
