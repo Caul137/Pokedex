@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&display=swap');
+
+
+body{
+    background-image: url("../img//tt4.gif");
+    background-size:cover;
+    background-color: hsl(192, 28%, 82%);
+}
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+
+.DivContainerPai{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0 0 ;
+}
+
+.MainContainer{
+    position: absolute;
+
+}
+.ImgPokedex{
+    width: 450px;
+    height: 650px;
+}
+
+.bi-arrow-left{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    top: 56%;
+    right: 170px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+&&:hover{
+    transform: scale(1.2);
+}
+}
+
+
+.bi-arrow-right{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    top: 56%;
+    right: 100px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    &&:hover{
+        transform: scale(1.2);
+    }
+}
+
+.bi-search{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 67%;
+    right: 85px;
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 0%, 0.87);
+    border-radius: 10px;
+    box-shadow: 10px 6px 0 #413f3f;
+    cursor: pointer;
+    &&:hover{
+        transform: scale(1.1)
+    }
+}
+
+.SearchPokemon{
+    position: absolute;
+    top: 66%;
+    right: 160px;
+    border-radius: 10px;
+    outline: none;
+    height: 45px;
+    width: 250px;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 8px 6px 0 #646464;
+}
+
+.Estilizacao{
+    position: absolute;
+    top: 88%;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    right: 150px;
+}
+
+.ImgPokemon{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30%;
+    transform: translate(90px, -70px)
+}
+
+.PokemonNomeSpan{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    position: absolute;
+    top: 57%;
+    right: 250px;
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+}
+
+.NumeroDoPokemon{
+    position: absolute;
+    top: 22.5%;
+    right: 115px;
+    background-color: rgb(189, 189, 189);
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.InformacoesLateral{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 80px 70px 70px 100px;
+    border-radius: 30px ;
+    border: #520202;
+    box-shadow: 15px 15px 0 #e4e2e2;
+    border-style:solid;
+}
+
+.cabecario{
+    width: 650px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+   font-family: "Teko", serif;
+   color: rgb(12, 0, 0);
+}
+
+.InformacoesDentroDoBalao{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin: 15px;
+font-size: 18px;
+font-family: 'Courier New', Courier, monospace;
+font-weight:normal;
+
+}
+
+#botaoNextPokedex{
+    transform: scale(0.9);
+    cursor: pointer;
+    box-shadow: 6px 6px 6px hwb(0 0% 100% / 0.637);
+    border-radius: 5px;
+    color: red;
+background-color: black;
+    &&:hover{
+        transform: scale(1);
+    }
+}
+
+@media (max-width:1024px) {
+
+    body{
+        background-image: url("../img//tt4.gif");
+        background-size:auto;
+
+        background-color: hsl(192, 28%, 82%);
+       
+      
+    }
+
+    .DivContainerPai{
+        width: 100%;
+        position: absolute;
+        right: 20%;
+        top: 70%;
+      }
+      
+    
+      .ImgPokedex{
+          width: 450px;
+          height: 650px;
+      }
+      .InformacoesLateral{
+        position: absolute;
+        width: 450px;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin: 80px 70px 70px 100px;
+        border-radius: 30px ;
+        border: #520202;
+        box-shadow: 15px 15px 0 #e4e2e2;
+        border-style:solid;
+    }
+
+}
+
+
